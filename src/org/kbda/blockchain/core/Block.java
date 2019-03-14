@@ -1,4 +1,4 @@
-package org.kbda.bockchain.core;
+package org.kbda.blockchain.core;
 
 import java.util.Date;
 

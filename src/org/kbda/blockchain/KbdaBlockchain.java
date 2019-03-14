@@ -1,6 +1,6 @@
 package org.kbda.blockchain;
 
-import org.kbda.bockchain.core.Block;
+import org.kbda.blockchain.core.Block;
 
 public class KbdaBlockchain {
 
