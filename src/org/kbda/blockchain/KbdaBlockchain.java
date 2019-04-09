@@ -3,6 +3,7 @@ package org.kbda.blockchain;
 import java.util.ArrayList;
 
 import org.kbda.blockchain.core.Block;
+import org.kbda.blockchain.core.Wallet;
 
 import com.google.gson.GsonBuilder;
 
@@ -14,7 +15,10 @@ public class KbdaBlockchain {
 	public static int difficulty = 3;
 
 	public static void main(String[] arg) {
-
+		//Wallet 생성
+		Wallet w1 = new Wallet();
+		w1.generateKeyPair();
+/*
 		//초기 블럭을 만듭니다.
 		blockchain.add(new Block("Genesis block", "0"));
 		System.out.println("\nTrying to Mine Genesis block!");
@@ -32,7 +36,7 @@ public class KbdaBlockchain {
 		String blockchainJson = new GsonBuilder().setPrettyPrinting().create().toJson(blockchain);
 		System.out.println("\nOpenchain Block list : ");
 		System.out.println(blockchainJson);
-
+*/
 	}
 	
 	/**
